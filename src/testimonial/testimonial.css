@@ -1,0 +1,114 @@
+.testImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.testImagex{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.testImageL{
+    width: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.testImage1{
+    position: absolute;
+    top: 80px;
+    left: 300px;
+}
+.testImage2{
+    position: absolute;
+    top: 65px;
+    right: 320px;
+}
+.testImage3{
+    position: absolute;
+    top: 370px;
+    right: 300px;
+}
+.testImage4{
+    position: absolute;
+    top: 300px;
+    left: 230px;
+}
+.testImage5{
+    position: absolute;
+    top: 180px;
+    left: 150px;
+}
+.testImage6{
+    position: absolute;
+    top: 240px;
+    right: 150px;
+}
+
+@media screen and (max-width: 805px){
+    .testImage1{
+        position: absolute;
+        top: 150px;
+        left: 100px;
+    }
+    .testImage2{
+        position: absolute;
+        top: 150px;
+        right: 120px;
+    }
+    .testImage3{
+        position: absolute;
+        top: 370px;
+        right: 100px;
+    }
+    .testImage4{
+        position: absolute;
+        top: 370px;
+        left: 130px;
+    }
+    .testImage5{
+        position: absolute;
+        top: 250px;
+        left: 70px;
+    }
+    .testImage6{
+        position: absolute;
+        top: 240px;
+        right: 70px;
+    }
+}
+@media screen and (max-width: 600px){
+    .testImage1{
+        position: absolute;
+        top: 150px;
+        left: 10px;
+    }
+    .testImage2{
+        position: absolute;
+        top: 150px;
+        right: 20px;
+    }
+    .testImage3{
+        position: absolute;
+        top: 370px;
+        right: 10px;
+    }
+    .testImage4{
+        position: absolute;
+        top: 370px;
+        left: 30px;
+    }
+    .testImage5{
+        position: absolute;
+        top: 250px;
+        left: 7px;
+    }
+    .testImage6{
+        position: absolute;
+        top: 240px;
+        right: 7px;
+    }
+}

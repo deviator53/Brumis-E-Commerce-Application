@@ -1,0 +1,43 @@
+.register{
+    position: absolute;
+    box-shadow: 0 2px 12px -3px rgba(0, 0, 0, .6);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vw;
+    padding: 10px;
+}
+.register__head{
+    text-align: center;
+    font-size: 22px;
+}
+.register__highlight{
+    color: #0e233f;
+    font-weight: bold;
+}
+.holder{
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+.register h3{
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, .6);
+    width: 50%;
+    /* max-width: 160px; */
+    margin: 5px auto;
+    padding-bottom: 10px;
+    /* padding: 10px; */
+    font-size: 25px;
+    color: #0e233f;
+    font-weight: bold;
+    border-bottom: 4px solid #0e233f;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 450px) {
+    .register{
+        width: 90vw;
+    }
+}
