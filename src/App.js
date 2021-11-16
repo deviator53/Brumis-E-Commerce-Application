@@ -25,7 +25,7 @@ function App() {
       <>
       <BrowserRouter>
       <Switch>
-        <Route exact path="/" newArrivals={newArrivals} trendingProducts={trendingProducts} topCategories={topCategories} component={Home}></Route>
+        <Route exact path="/"  component={Home}></Route>
         <Route exact path="/login" component={Login}></Route> 
         <Route exact path="/verify-user" component={VerifyUser}></Route> 
         <Route exact path="/register" component={Register}></Route>  
@@ -33,7 +33,7 @@ function App() {
         <Route exact path="/reset-password" component={ResetPassword}></Route> 
         <Route exact path="/shop"  component={Shop}></Route>  
         {/* <ProductContext> */}
-          <Route exact path="/order" product={product}  component={Order}></Route> 
+          <Route exact path="/order" component={Order}></Route> 
           <Route exact path="/pay" component={Pay}></Route>
         {/* </ProductContext> */}
 

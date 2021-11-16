@@ -90,30 +90,27 @@ const Shop = () => {
         const classes = useStyles();
         // const {product} = props;
         const history = useHistory();
-        const {newArrivals} = Data;
 
     return (
         <>
         <Navbar/>
         <div className={classes.shop__container}>
             <div className={classes.shop__content}>
-                {newArrivals.map((data) => ( 
-                <div className={classes.shop__box} key={data.id}>
+                <div className={classes.shop__box}>
                     <div className={classes.shop__image}>
-                        <img className={classes.shopImg} src={data.image} alt={data.name} />
+                        <img className={classes.shopImg} src={cosmetic15} alt="cosmetic"/>
                     </div>
                     <div className={classes.shop__details}>
-                        <div className={classes.shopText}>{data.name}<br/>
-                            <span className={classes.shopPrice}>${data.price}</span>
+                        <div className={classes.shopText}>Floral Cream<br/>
+                            <span className={classes.shopPrice}>$24.4</span>
                         </div>
                         <IconButton className={classes.shopIcon}>
-                            <ArrowRightAltIcon onClick={() => history.push(`/order/${data.id}`)}/>
+                            <ArrowRightAltIcon/>
                         </IconButton>  
                     </div>  
                 </div>
 
                 
-                ))}
             </div>
         </div>
         <Footer/>

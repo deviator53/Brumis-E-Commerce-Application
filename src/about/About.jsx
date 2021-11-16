@@ -45,7 +45,7 @@ const About = () => {
             <Typography className={classes.aboutContent} variant="h6">
                 <strong>BRUMIS</strong> is an e-commerce platform with the goal to bring the whole world to a particular platform
                 where seamless trade and transactions occurs, We are based in the heart of Nigeria (Abuja), the city that never sleeps. 
-                We were founded by David Bradford and co-founded by Ogheneruno on 1st November,2021.
+                We were founded by David Bradford and Ogheneruno on 1st November,2021.
             </Typography>
             </div>
 

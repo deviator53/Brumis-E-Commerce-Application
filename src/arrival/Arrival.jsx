@@ -138,9 +138,8 @@ const Arrival = ({newArrivals}) => {
     return (
         <>
         <div>
-            {
-                newArrivals.map((arrival) => {
-                    <div className={classes.arrivalContainer} key={arrival.id}>
+            
+                    <div className={classes.arrivalContainer}>
                 <div className={classes.arrivalBg}>
                     <img className={classes.paperBg} src={Bg} />
                     <img className={classes.paperLady} src={Lady} />
@@ -150,7 +149,7 @@ const Arrival = ({newArrivals}) => {
                 <div className={classes.arrivalText}>
                     <Typography className={classes.arrivalHead} variant="h4">New Arrival</Typography>
                     <Typography className={classes.arrivalBody} mt={2}>Most dermatologist agree it is important to cleanse the face twice daily to get bacteria, dirt and pollutants off your skin</Typography>
-                    <Button className={classes.arrivalBtn} onClick={()=>(window.location.href="/shop")}>View More</Button>
+                    <Button className={classes.arrivalBtn} >View More</Button>
                 </div>
 
                 <div className={classes.arrivalImg}>
@@ -171,11 +170,11 @@ const Arrival = ({newArrivals}) => {
 
                     <div className="card1">
                         <div className="card-image">
-                            <img className="cardImg" src={arrival.image} />
+                            <img className="cardImg" src={Cosmetic4} />
                         </div>
                         <div className="spanContainer">
-                          <div className="span-text">{arrival.name}
-                            <span className="span-price">${arrival.price}</span> 
+                          <div className="span-text">Body cream<br/>
+                            <span className="span-price">$20.00</span> 
                           </div>
                             <IconButton
                             className={classes.expand}>
@@ -202,8 +201,8 @@ const Arrival = ({newArrivals}) => {
                 </div>
 
             </div>
-                })
-            }
+                
+            
             
         </div>
         </>
